@@ -2,6 +2,7 @@
 
 **PROJECT OVERVIEW**
 This project focuses on analyzing retail sales data using **SQL**. The goal is to clean the dataset, explore key insights, and answer critical business questions such as customer behavior, sales trends, best-selling categories & products, and seasonal and time-based patterns.
+
 **DATASET**
 
 The project assumes a table named **`retail_sales`** with the following columns:
