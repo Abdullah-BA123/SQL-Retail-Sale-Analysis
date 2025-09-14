@@ -51,11 +51,40 @@ SQL queries were written to solve business problems, including:
 - Time of day when sales peak.
 - Seasonal trends and recurring best-selling days.
   
-**HOW TO USE**
+**HOW TO USE (SQL)**
 1. Import your dataset into a database (e.g., PostgreSQL, MySQL).
 2. Run the SQL scripts in `RETAIL_sales_analysis.sql`.
 3. Modify queries as needed for your database engine (some syntax may vary).
 
-**NOTES**
+**NOTES (SQL)**
 - Replace **`quantiy`** with **`quantity`** if your dataset uses the correct spelling.
 - The script is optimized for PostgreSQL functions (`TO_CHAR`, `EXTRACT`), but can be adapted to MySQL or other SQL engines.
+
+---
+
+**RETAIL SALES ANALYSIS DASHBOARD (POWER BI)**
+
+**OVERVIEW**
+This dashboard was developed in **Power BI** to visually represent the insights gained from the SQL retail sales analysis. It transforms raw data into an interactive interface that highlights trends, patterns, and key business metrics.
+
+**FEATURES**
+- **Sales Overview**: Displays total sales, total orders, and revenue trends.
+- **Category Performance**: Identifies best-performing product categories and their share in total revenue.
+- **Customer Insights**: Showcases top customers, unique buyers, and demographic breakdowns.
+- **Time-Based Analysis**: Reveals sales distribution across days, months, years, and shifts (morning, afternoon, evening).
+- **Peak Sales Trends**: Highlights recurring best-selling days across years.
+
+**PURPOSE**
+The dashboard complements the SQL analysis by providing a **visual and interactive layer**. It is designed for business users to quickly explore:
+- Which categories and customers drive growth
+- When sales are at their highest
+- Where opportunities exist for improvement
+
+**HOW TO USE (POWER BI)**
+1. Open the `RETAILSALE_VISUALS.pbix` file in Power BI Desktop.
+2. Connect the dashboard to your retail sales dataset if needed.
+3. Interact with the visuals by filtering and drilling down for deeper insights.
+
+**NOTES (POWER BI)**
+- The dashboard is based on the same dataset as the SQL project.
+- It is meant for demonstration and learning purposes, but can be adapted to real business use cases.
